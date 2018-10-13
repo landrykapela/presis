@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tz.co.neelansoft.presis">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RecordExpenseActivity" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".RecordPurchaseActivity" android:parentActivityName=".MainActivity" />
+        <activity android:name=".SignupActivity" android:theme="@style/AppTheme" android:label="@string/new_account"/>
+        <activity android:name=".SigninActivity" android:theme="@style/AppTheme" android:label="@string/returning_user"/>
+        <activity android:name=".RecordSaleActivity" android:parentActivityName=".SalesTransactionsActivity" android:label="@string/new_entry"/>
+        <activity android:name=".SalesTransactionsActivity" android:parentActivityName=".MainActivity" android:label="@string/sales_transactions"/>
+        <activity android:name=".PurchaseTransactionsActivity" android:parentActivityName=".MainActivity" android:label="@string/purchase_transactions"/>
+        <activity android:name=".ExpensesTransactionsActivity" android:parentActivityName=".MainActivity" android:label="@string/expenses_transactions"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="border_radius">10dp</dimen>
+    <dimen name="stroke">2dp</dimen>
+    <dimen name="description_maxlines">10</dimen>
+    <dimen name="large_button_width">144dp</dimen>
+    <dimen name="large_button_height">48dp</dimen>
+    <dimen name="small_button_width">96dp</dimen>
+    <dimen name="small_button_height">36dp</dimen>
+    <dimen name="fab_margin">24dp</dimen>
+</resources>
